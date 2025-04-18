@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-wrap: wrap;
+   height:100vh;
+   background-color: antiquewhite;;
+}
+#wrapper{
+ width: 25%;
+ /* height:100vh; */
+ background-color: white;
+ padding:2rem;
+ border-radius:6px;
+ 
+}
+
+input,select,button{
+    width:100%;
+    margin-bottom:0.5rem;
+    padding:0.5rem;
+    border-radius: 6px;;
+    
+}
+p{
+    width:9%;
+    height:9%;
+    color:#fff;
+    background-color:black;
+    border-radius: 25%;
+    text-align: center;
+
+}
+button{
+    background-color: aqua;
+    color:white;
+}
+
